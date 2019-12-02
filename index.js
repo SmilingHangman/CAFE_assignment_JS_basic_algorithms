@@ -36,8 +36,7 @@ console.log(stringToNumber(["2", "8", "14"]));
 
 // Plucker (return array from object key values)
 function pluck(arrObj, keyName) {
-        let someGuy = arrObj.map(object => object[keyName]);
-        return someGuy;
+        return arrObj.map(object => object[keyName]);
 }
 console.log(pluck([{name: "Bob", job: "drummer"}, {name: "Paul", job: "librarian"}, {name: "Tom", job: "world class nobody"}], "job"));
 
